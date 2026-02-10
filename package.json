@@ -1,0 +1,30 @@
+{
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "description": "Backend REST API for BFHL assignment with health check, computation logic, and Gemini AI integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "bfhl",
+    "gemini-ai"
+  ],
+  "author": "Anushka",
+  "license": "ISC"
+}
